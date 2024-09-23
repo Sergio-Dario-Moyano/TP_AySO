@@ -1,0 +1,1 @@
+Una de las herramientas que encontré para hacer dump traffic es: tcpdump. El comando para ejecutarlo es: sudo tcpdump -i <interface> (en mi caso, interface es: enp0s3 / emp0s8)
