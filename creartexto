@@ -1,0 +1,3 @@
+echo "Alumno: Moyano Sergio" >> README.md
+echo "División: 314" >> README.md
+echo "Turno: Noche" >> README.md
