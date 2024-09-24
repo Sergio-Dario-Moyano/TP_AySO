@@ -1,0 +1,161 @@
+clear
+man
+man man
+ls -l
+useradd 1er_usario
+whatis useradd
+sudo useradd 1er_usario
+echo $?
+grep usuario / etc/passwd
+grep usuario /etc/passwd
+clear
+grep -E 'usuario | vagrant' /etc/passwd
+grep -E 'usuario | vagr' /etc/passwd
+ls -l
+ls -l /home/
+man
+man man
+ll
+cd repogit
+ll
+cd TP_AySO/
+git status
+git push
+ip a
+echo "Una de las herramientas que encontré para hacer dump traffic es: tcpdump. El comando para ejecutarlo es: sudo tcpdump -i <interface> (en mi caso, interface es: enp0s3 / emp0s8)" > comando_dump_net
+cat comando_dump_net
+git status
+git add .
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+history
+man -k
+man -K
+man man
+man mandb
+man -K 
+sudo mandb -c
+man -k
+pwd
+ls -l
+cat unarchivo
+cat << EOF >>unarchivo
+Alumno: alumno
+División: división
+Turno: turno
+Provando el comando...
+EOF
+
+cat unarchivo
+cat << agregar > script
+Alumno2: alumno2
+Division2: division2
+Turno2: turno2
+agregar
+
+cat unarchivo
+cat script
+cat << agregar2 >> script2
+texto
+multilinea
+de pueba
+agregar2
+
+echo script2 >> unarchivo
+cat unarchivo
+echo $(script2) >> unarchivo
+cat script2
+cat << unarchivo >> script2
+cat unarchivo
+unarchivo
+
+cat unarchivo
+echo $shell
+echo $SHELL
+cat << EOF >> script3
+linea1
+linea2
+linea3
+EOF
+
+cat unarchivo
+echo bash scrip3 >> unarchivo
+cat unarchivo
+echo $(bash scrip3) >> unarchivo
+echo bash script3 >> unarchivo
+cat unarchivo
+echo $(bash script3) >> unarchivo
+cat unarchivo
+cat << EOF > script
+aaaaaa
+bbbbbb
+cccccc
+OEF
+EOF
+
+cat script
+bash script
+bash script >> unarchivo
+cat unarchivo
+cat << EOF > script33
+echo "Alumn: algo
+echo "Div: algo mas"
+echo "Turno: Otro turno"
+EOF
+
+cat scipt33
+cat script33
+cat << bash script33 >> unarchivo
+bash script33
+bash script33
+cat << bash script33 >> unarchivo
+bash script33
+bash script33
+#
+bash
+
+ll
+rm -rf script
+ll
+rm -rf script2
+rm -rf script3
+rm -rf script33
+ll
+cat << FIN > script
+echo "Alumno: Sergio Moyano" >> unarchivo
+echo "División: 314" >> unarchivo
+echo "Turno: Noche" >> unarchivo
+FIN
+
+cat unarchivo
+bash script
+cat unarchivo
+cat README.md
+rm -rf script
+ll
+echo "texto de prueba" > nuevoarchivo
+cat nuevoarchivo
+ll
+cat << FIN > script
+echo "texto1" >> nuevoarchivo
+echo "texto2" >> nuevoarchivo
+FIN
+
+cat nuevoarchivo
+bash script
+cat nuevoarchivo
+rm -rf script
+rm -rf unarchivo
+rm -rf nuevoarchivo
+ll
+cat << FIN > creartexto
+echo "Alumno: Moyano Sergio" >> README.md
+echo "División: 314" >> README.md
+echo "Turno: Noche" >> README.md
+FIN
+
+bash creartexto
+cat README.md
+git status
+git add .
+git commit -m "feat: Añadiendo información del alumno que realiza el TP mediante HereDoc y redireccionamiento"
+history -a
